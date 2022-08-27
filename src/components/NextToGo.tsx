@@ -31,7 +31,7 @@ const _NextToGo = (): JSX.Element => {
   return (
     <div>
       <div>
-        <h1>Next To Go Races</h1>
+        <h1 data-testid="page-title">Next To Go Races</h1>
         <CategoryFilters categoryFilters={categoryFilters} onFilterChange={toggleCategoryFilter} />
         {isLoading ? <LoadingSpinner /> : <NextToGoList races={races} />}
       </div>

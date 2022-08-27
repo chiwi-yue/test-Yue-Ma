@@ -25,11 +25,11 @@ type Props = { categoryFilters: RacingCategoryFilters, onFilterChange: (category
 
 const _CategoryFilters = ({ categoryFilters, onFilterChange }: Props): JSX.Element => {
   return (
-    <div className="category-filters">
+    <div className="category-filters" data-testid="category-filters">
       {CATEGORY_FILTERS.map((filter) => (
-        <div className="category-filter">
-          <input className="filter-checkbox" type="checkbox" checked={categoryFilters[filter.categoryId]} onChange={() => onFilterChange(filter.categoryId)} />
-          <label>{filter.name}</label>
+        <div className="category-filter" data-testid={`category-filter-${filter.categoryId}`}>
+          <input className="filter-checkbox" data-testid="category-filter-checkbox" type="checkbox" checked={categoryFilters[filter.categoryId]} onChange={() => onFilterChange(filter.categoryId)} />
+          <label data-testid="category-filter-label">{filter.name}</label>
         </div>
       ))}
     </div>
