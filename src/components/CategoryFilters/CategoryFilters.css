@@ -1,0 +1,14 @@
+.category-filters {
+  display: flex;
+  flex-direction: row;
+}
+
+.category-filter {
+  margin: 0.5em
+}
+
+.filter-checkbox {
+  width: 1.25em;
+  height: 1.25em;
+  margin-right: 0.5em;
+}

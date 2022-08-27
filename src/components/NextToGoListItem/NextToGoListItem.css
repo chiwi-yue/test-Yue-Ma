@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.race-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.race-number {
+  margin-right: 0em;
+}
