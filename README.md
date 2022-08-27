@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Entain Automation Coding Task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Prerequisites
 
-## Available Scripts
+[Node.js](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) are required to run the Next To Go web app and Cypress.
 
-In the project directory, you can run:
+## Setup
 
-### `npm start`
+Run ```npm install``` inside the project repository.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Running the Next To Go web app
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Run ```npm run start``` inside the project repository.
 
-### `npm test`
+## Running Cypress
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run ```npm run e2e``` inside the project repository.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Task Overview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<b>Please refer to the task outline provided to you for more details.</b>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+For this task, you will be required to expand the testing coverage for the Next To Go web application provided to you. The site and Cypress can be launched with the above setup commands.
 
-### `npm run eject`
+There is no "correct" solution for this task per se; it will be at your discretion to add coverage for components/functionality which you feel would be necessary to assure the quality of such an application. The intention of this task is to allow us insight into your ability to analyse a problem and develop thorough, holistic solutions in an automation framework such as Cypress.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Two specs, along with a pre-filled spec file for your reference, have been created within the ```cypress/e2e/``` directory.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Task Requirements
+- Add tests to the ```countdown-timer``` and ```filters``` specs for each spec's respective components/functionality
+- Add more general coverage to the ```content.cy.ts``` spec to which you feel is necessary
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Additional Considerations
+The below points are not strict requirements for the test, but more so some aspects which you may want to implement/consider in your solution.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Race response mocking
+- Negative scenario testing (e.g. failed network requests)
+- Small summaries of any bugs/issues you witness whilst implementing your solution
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+All additional coverage added which has not been explicitly asked for will strengthen your submission.
