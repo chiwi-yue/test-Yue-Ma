@@ -17,24 +17,33 @@ export const usePollRaces = (filters: RacingCategoryFilters) => {
 
   const sortRaces = (races: ListRace[]): ListRace[] => races.sort((a, b) => a.advertisedStart.getTime() - b.advertisedStart.getTime());
 
+  const fetchRaces = async (): Promise<void> => {
+    const encodedCategoryIds = encodeURIComponent(JSON.stringify(RACING_CATEGORIES));
+    const url = `${NEXT_RACES_API_ENDPOINT}?count=6&categories=${encodedCategoryIds}`;
+
+    const requestInfo = {
+      headers: new Headers({ 'Content-Type': 'application/json' }),
+    };
+
+    const response = await (await fetch(url, requestInfo)).json() as NextRacesCategoryGroupResponse;
+
+    const listRaces = Object.values(response.race_summaries).map<ListRace>((rawRace) => ({
+      raceId: rawRace.race_id,
+      meetingName: rawRace.meeting_name,
+      raceNumber: rawRace.race_number,
+      advertisedStart: new Date(rawRace.advertised_start),
+      categoryId: rawRace.category_id,
+    }));
+
+    const sortedRaces = sortRaces(listRaces);
+
+    setUnfilteredRaces(sortedRaces);
+  }
+
   useEffect(() => {
+    fetchRaces();
     setInterval(async () => {
-      const encodedCategoryIds = encodeURIComponent(JSON.stringify(RACING_CATEGORIES));
-      const url = `${NEXT_RACES_API_ENDPOINT}?count=6&categories=${encodedCategoryIds}`;
-  
-      const response = await (await fetch(url)).json() as NextRacesCategoryGroupResponse;
-  
-      const listRaces = Object.values(response.race_summaries).map<ListRace>((rawRace) => ({
-        raceId: rawRace.race_id,
-        meetingName: rawRace.meeting_name,
-        raceNumber: rawRace.race_number,
-        advertisedStart: new Date(rawRace.advertised_start),
-        categoryId: rawRace.category_id,
-      }));
-
-      const sortedRaces = sortRaces(listRaces);
-
-      setUnfilteredRaces(sortedRaces)
+      await fetchRaces();
     }, 15000);
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
