@@ -3,9 +3,12 @@ import { NEXT_RACES_API_ENDPOINT, RACING_CATEGORIES } from "../constants";
 import { NextRacesCategoryGroupResponse } from "../types/api";
 import { RacingCategoryFilters, ListRace } from "../types/racing";
 
-export const usePollRaces = (filters: RacingCategoryFilters) => {
+export const usePollRaces = (filters: RacingCategoryFilters): { races: ListRace[], isLoading: boolean } => {
   const [unfilteredRaces, setUnfilteredRaces] = useState<ListRace[]>([]);
   const [races, setRaces] = useState<ListRace[]>([]);
+
+  // Track initial loading progress
+  const [isLoading, setIsLoading] = useState(true);
 
   const filterRaces = (races: ListRace[]): ListRace[] => {
     const currentTime = new Date().getTime();
@@ -38,6 +41,7 @@ export const usePollRaces = (filters: RacingCategoryFilters) => {
     const sortedRaces = sortRaces(listRaces);
 
     setUnfilteredRaces(sortedRaces);
+    setIsLoading(false);
   }
 
   useEffect(() => {
@@ -53,5 +57,5 @@ export const usePollRaces = (filters: RacingCategoryFilters) => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [filters, unfilteredRaces]);
 
-  return races;
+  return { races, isLoading };
 }

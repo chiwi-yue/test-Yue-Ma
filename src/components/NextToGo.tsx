@@ -3,6 +3,7 @@ import { CATEGORY_ID_GREYHOUND, CATEGORY_ID_HARNESS, CATEGORY_ID_THOROUGHBRED, R
 import { usePollRaces } from "../hooks/usePollRaces";
 import { RacingCategoryFilters, RacingCategory } from "../types/racing";
 import { CategoryFilters } from "./CategoryFilters/CategoryFilters";
+import { LoadingSpinner } from "./LoadingSpinner/LoadingSpinner";
 import { NextToGoList } from "./NextToGoList";
 
 const INITIAL_CATEGORY_FILTER_STATE: RacingCategoryFilters = {
@@ -17,7 +18,7 @@ const _NextToGo = (): JSX.Element => {
   };
 
   const [categoryFilters, toggleCategoryFilter] = useReducer(categoryFiltersReducer, INITIAL_CATEGORY_FILTER_STATE);
-  const races = usePollRaces(categoryFilters);
+  const { races, isLoading } = usePollRaces(categoryFilters);
 
   useEffect(() => {
     if (!Object.values(categoryFilters).some((filter) => filter)) {
@@ -32,7 +33,7 @@ const _NextToGo = (): JSX.Element => {
       <div>
         <h1>Next To Go Races</h1>
         <CategoryFilters categoryFilters={categoryFilters} onFilterChange={toggleCategoryFilter} />
-        <NextToGoList races={races} />
+        {isLoading ? <LoadingSpinner /> : <NextToGoList races={races} />}
       </div>
     </div>
   );

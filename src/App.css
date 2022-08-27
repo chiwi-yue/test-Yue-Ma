@@ -10,4 +10,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 1em;
+  padding-right: 1em;
 }
