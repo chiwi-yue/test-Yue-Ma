@@ -1,7 +1,14 @@
+/// <reference types="cypress" />
+
 describe('Countdown Timer', () => {
-  it.skip('Insert test here');
+  beforeEach(() => {
+    cy.visit('/')
+  });
 
-  it.skip('Insert test here');
+  it('The timer should count down correctly', () => {
+      cy.log("test")
+  });
 
-  it.skip('Insert test here');
+
+
 });
