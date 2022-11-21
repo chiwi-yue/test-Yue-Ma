@@ -1,0 +1,464 @@
+{
+    "category_race_map":{
+       "161d9be2-e909-4326-8c2c-35ed71fb460b":{
+          "race_ids":[
+             "763f2f4a-1f8a-461b-a9cc-e0311fd74878",
+             "bf639149-3f9e-421a-b698-de67bc0d14c4",
+             "78b2604e-a4e3-43ec-9785-62bc9d4ad31f",
+             "7bcb7a7e-d3fa-463b-ae8c-709608f0fee6",
+             "2cacc7db-03fb-45c4-9c54-f3ec606358fb"
+          ]
+       },
+       "4a2788f8-e825-4d36-9894-efd4baf1cfae":{
+          "race_ids":[
+             "65463bd2-c0fd-4d09-9e0f-d38a44267435",
+             "6c79fe03-f673-4e48-bf27-b56c233c9a9e",
+             "a253bd8f-7a5d-44a1-85a3-cfc0d06692a8",
+             "c3cc66d1-af7b-4779-b85b-f825ed8d0655",
+             "3af2a7c9-ef7c-467a-b647-153c84671125"
+          ]
+       },
+       "9daef0d7-bf3c-4f50-921d-8e818c60fe61":{
+          "race_ids":[
+             "96047799-2180-4d70-9588-5f5f6a3ff461",
+             "5f519a79-15ce-4fab-8198-3544f1525697",
+             "861cf4c0-aaa2-459e-b6dd-540f08b5d603",
+             "51eeeb4b-e5f4-4f94-b178-6e70be0d1a3c",
+             "189cb3dc-52a1-4568-b4be-96774def9068"
+          ]
+       }
+    },
+    "race_summaries":{
+       "189cb3dc-52a1-4568-b4be-96774def9068":{
+          "race_id":"189cb3dc-52a1-4568-b4be-96774def9068",
+          "race_name":"Fake Name 01",
+          "race_number":4,
+          "meeting_id":"9d71ef19-6bbf-4955-8c33-37beac4dcffb",
+          "meeting_name":"Stub Name 01",
+          "category_id":"9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+          "advertised_start":"2022-11-21T01:40:00Z",
+          "race_form":{
+             "distance":390,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"Overcast"
+             },
+             "race_comment":"MAN OF POWER (1) scored (23.03) last time out at Geelong in a Grade 5 and will break from box 1 for the first time. All five career wins have been over this journey. Looks the one to beat. BIG BRAVEHEART (2) comes off an average effort last start when seventh at Bendigo over 500m behind Handsome Rhino (29.43) in a Grade 4/5. Strong form has emerged from his last run. Can figure in the finish. INTER CLEM (7) was safely held last time out, finishing seventh at this track over 390m behind MISS COSMIC LEE (23.20) in a Grade 5. The form from his last run stacks up well. Has ability and can measure up. ROXY CRUMPET (4) can sneak into the finish with the right run.",
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"\",\"state\":\"\",\"country\":\"\",\"number\":0,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"6a2a6438-5747-4771-a17d-bc40523bfaef",
+          "venue_name":"Ballarat",
+          "venue_state":"VIC",
+          "venue_country":"AUS"
+       },
+       "2cacc7db-03fb-45c4-9c54-f3ec606358fb":{
+          "race_id":"2cacc7db-03fb-45c4-9c54-f3ec606358fb",
+          "race_name":"Fake Name 02",
+          "race_number":8,
+          "meeting_id":"83359d56-a7cd-4eea-84b9-2260d3302ec9",
+          "meeting_name":"Stub Name 02",
+          "category_id":"161d9be2-e909-4326-8c2c-35ed71fb460b",
+          "advertised_start":"2022-11-21T02:20:00Z",
+          "race_form":{
+             "distance":1609,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"FINE"
+             },
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Northfield Park\",\"state\":\"OH\",\"country\":\"USA\",\"number\":8,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"562f0f79-ecf3-4c04-805c-4d074ab7965e",
+          "venue_name":"Northfield Park",
+          "venue_state":"OH",
+          "venue_country":"USA"
+       },
+       "3af2a7c9-ef7c-467a-b647-153c84671125":{
+          "race_id":"3af2a7c9-ef7c-467a-b647-153c84671125",
+          "race_name":"Fake Name 03",
+          "race_number":1,
+          "meeting_id":"7c541e60-1bf2-4961-b93f-3238bcfafec0",
+          "meeting_name":"Stub Name 03",
+          "category_id":"4a2788f8-e825-4d36-9894-efd4baf1cfae",
+          "advertised_start":"2022-11-21T02:15:00Z",
+          "race_form":{
+             "distance":1200,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Soft6",
+                "short_name":"soft6"
+             },
+             "weather":{
+                "name":"FINE"
+             },
+             "race_comment":"MISS ELSIE MAY (3) is racing in the best form of her career and has earnt a cheque at her last six starts. Raced on the speed when third behind the promising Lady Kah over 1300m at Goulburn on October 30. A repeat effort here will see her hard to hold out. FEEL THE KNIGHT (2) will find this more to his liking after racing well in town at his last three runs. Drifted back from the wide gate and never a hope when 11th over 1000m at Randwick on November 1. Well in with the claim today and looks a serious player. ALAN (7) motored late when resumed with an encouraging fourth last start at Sapphire Coast over 1000m. Extra trip helps and has placed second-up in the past. CARNIVAL MISS (5) returns today after failing to make an impression when eighth over 1400m at Randwick in a Highway on May 28. This her pet trip and gets plenty of favours from the draw. Can figure in the placings.",
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Wagga Riverside\",\"state\":\"NSW\",\"country\":\"AUS\",\"number\":1,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"d03eac98-5331-4877-8acf-7897a2f12bef",
+          "venue_name":"Wagga Riverside",
+          "venue_state":"NSW",
+          "venue_country":"AUS"
+       },
+       "51eeeb4b-e5f4-4f94-b178-6e70be0d1a3c":{
+          "race_id":"51eeeb4b-e5f4-4f94-b178-6e70be0d1a3c",
+          "race_name":"Www.Ipswichgreyhounds.Com Maiden H",
+          "race_number":3,
+          "meeting_id":"72e98736-e90e-4a5d-b65a-f09f78522943",
+          "meeting_name":"Stub Name 04",
+          "category_id":"9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+          "advertised_start":"2022-11-21T01:36:00Z",
+          "race_form":{
+             "distance":288,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"FINE"
+             },
+             "race_comment":"STREET SCANDAL (2) boxed on well to place last time, beaten one length (17.21) behind Cuckoo Coconuts at this track. Makes plenty of appeal. IT'S TIME LIONEL (1) comes off a moderate effort last start, finishing fifth at this track over 288m behind Cheers (17.29). Can measure up this time. KEEP ON RUNNING (6) delivered a moderate run last time when fourth at this track over 288m behind It's Time Molly (17.26). Form from her last run is proving to be solid. Can measure up this time. VELOCITY CARLY (7) is worth a look despite no experience at this circuit.",
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"\",\"state\":\"\",\"country\":\"\",\"number\":0,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"a70506ee-3dd5-4741-baa1-cac6160badbc",
+          "venue_name":"Ipswich",
+          "venue_state":"QLD",
+          "venue_country":"AUS",
+          "video":{
+             "channel":{
+                "channel_id":"bd93ca0c-63fc-4bf3-b5b1-efcd208546dc"
+             }
+          }
+       },
+       "5f519a79-15ce-4fab-8198-3544f1525697":{
+          "race_id":"5f519a79-15ce-4fab-8198-3544f1525697",
+          "race_name":"1St Half Daily Double/Quiniela/Exacta/Trifecta/Straight Bet Bienvenidos Al",
+          "race_number":1,
+          "meeting_id":"8514bc73-3ce9-4f81-a6d1-14d8cd7b2305",
+          "meeting_name":"Stub Name 05",
+          "category_id":"9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+          "advertised_start":"2022-11-21T01:30:00Z",
+          "race_form":{
+             "distance":546,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Caliente\",\"state\":\"BC\",\"country\":\"MEX\",\"number\":1,\"race_name\":\"1St Half Daily Double/Quiniela/Exacta/Trifecta/Straight Bet Bienvenidos Al\",\"time\":\"2022-11-21T01:30:00Z\"}}"
+          },
+          "venue_id":"7e900a49-ee05-4feb-9a52-5d3a0db47352",
+          "venue_name":"Caliente",
+          "venue_state":"BC",
+          "venue_country":"MEX"
+       },
+       "65463bd2-c0fd-4d09-9e0f-d38a44267435":{
+          "race_id":"65463bd2-c0fd-4d09-9e0f-d38a44267435",
+          "race_name":"Race 1 - 1400",
+          "race_number":1,
+          "meeting_id":"2ce34cb4-755a-418b-895b-0151f26ad9fe",
+          "meeting_name":"Stub Name 06",
+          "category_id":"4a2788f8-e825-4d36-9894-efd4baf1cfae",
+          "advertised_start":"2022-11-21T01:30:00Z",
+          "race_form":{
+             "distance":1400,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Soft",
+                "short_name":"soft"
+             },
+             "weather":{
+                "name":"OCAST"
+             },
+             "race_comment":"BURGMULLER (5) is a colt by Danon Ballade out of Fuseno Blues set to debut for the Satoshi Kokubo stable. Sasagawa in the saddle a positive lead. Should measure up. HIGHBALL GIRL (3) is a filly by Battle Plan out of Sakura Wise on debut for the Takeshi Minowa stable. From a proven family. Looks set to run well. LEVAIN ACTRESS (1) is a filly by Discreet Cat out of Oborozuki set to debut for the Takashi Mizuno stable. Barrier 1 a positive. Can figure in the finish. MAPLE MARRON (6) is a two-year-old filly from the Shinji Kobayashi yard on debut today. Pay to watch for any positive betting moves.",
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Urawa\",\"state\":\"JPN\",\"country\":\"JPN\",\"number\":1,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"26207fdc-6176-4437-b7bc-25fec74c7bc8",
+          "venue_name":"Urawa",
+          "venue_state":"JPN",
+          "venue_country":"JPN"
+       },
+       "6c79fe03-f673-4e48-bf27-b56c233c9a9e":{
+          "race_id":"6c79fe03-f673-4e48-bf27-b56c233c9a9e",
+          "race_name":"Race 2 - Trials",
+          "race_number":2,
+          "meeting_id":"04dd2a19-4143-4a1b-932d-a79f75344311",
+          "meeting_name":"Stub Name 07",
+          "category_id":"4a2788f8-e825-4d36-9894-efd4baf1cfae",
+          "advertised_start":"2022-11-21T01:42:00Z",
+          "race_form":{
+             "distance":366,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Dirt",
+                "short_name":"dirt"
+             },
+             "weather":{
+                "name":"OCAST"
+             },
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Los Alamitos\",\"state\":\"CA\",\"country\":\"USA\",\"number\":2,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"961e2c9d-e30b-4771-a7ea-294a8f794e61",
+          "venue_name":"Los Alamitos",
+          "venue_state":"CA",
+          "venue_country":"USA"
+       },
+       "763f2f4a-1f8a-461b-a9cc-e0311fd74878":{
+          "race_id":"763f2f4a-1f8a-461b-a9cc-e0311fd74878",
+          "race_name":"Race 5 - 1609M",
+          "race_number":5,
+          "meeting_id":"83359d56-a7cd-4eea-84b9-2260d3302ec9",
+          "meeting_name":"Stub Name 08",
+          "category_id":"161d9be2-e909-4326-8c2c-35ed71fb460b",
+          "advertised_start":"2022-11-21T01:24:00Z",
+          "race_form":{
+             "distance":1609,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"FINE"
+             },
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Northfield Park\",\"state\":\"OH\",\"country\":\"USA\",\"number\":5,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"562f0f79-ecf3-4c04-805c-4d074ab7965e",
+          "venue_name":"Northfield Park",
+          "venue_state":"OH",
+          "venue_country":"USA"
+       },
+       "78b2604e-a4e3-43ec-9785-62bc9d4ad31f":{
+          "race_id":"78b2604e-a4e3-43ec-9785-62bc9d4ad31f",
+          "race_name":"Linc Scaffolding Pace",
+          "race_number":1,
+          "meeting_id":"cfb52e81-093b-4f20-b644-5bde068a353e",
+          "meeting_name":"Stub Name 09",
+          "category_id":"161d9be2-e909-4326-8c2c-35ed71fb460b",
+          "advertised_start":"2022-11-21T01:50:00Z",
+          "race_form":{
+             "distance":2210,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"Showers"
+             },
+             "race_comment":"BLISSFULL MIND (7) finished third last start over 1609m at Cranbourne, beaten a head. Best recent result was a win at Yarra Valley three starts ago. Must overcome a very wide draw. Big chance if he is at his best. DENSTOWN (1) was unplaced two starts ago then broke and finished 22 metres away in fourth last time out over 2080m at Cranbourne. Won't find this any harder so he can return to form. MACHAVELLI (5) should find this easier and is worth another chance after a last-start eighth in tougher company over 1609m at Geelong five days ago. LITTLE SAFARI (2) has a handy draw and is worth some thought despite his last-start modest effort over 2080m at Cranbourne on November 13.",
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Warragul\",\"state\":\"VIC\",\"country\":\"AUS\",\"number\":1,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"4cf40610-8cc2-442d-9bc6-c193cedaa032",
+          "venue_name":"Warragul",
+          "venue_state":"VIC",
+          "venue_country":"AUS"
+       },
+       "7bcb7a7e-d3fa-463b-ae8c-709608f0fee6":{
+          "race_id":"7bcb7a7e-d3fa-463b-ae8c-709608f0fee6",
+          "race_name":"Race 7 - 1609M",
+          "race_number":7,
+          "meeting_id":"83359d56-a7cd-4eea-84b9-2260d3302ec9",
+          "meeting_name":"Stub Name 10",
+          "category_id":"161d9be2-e909-4326-8c2c-35ed71fb460b",
+          "advertised_start":"2022-11-21T02:00:00Z",
+          "race_form":{
+             "distance":1609,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"FINE"
+             },
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Northfield Park\",\"state\":\"OH\",\"country\":\"USA\",\"number\":7,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"562f0f79-ecf3-4c04-805c-4d074ab7965e",
+          "venue_name":"Northfield Park",
+          "venue_state":"OH",
+          "venue_country":"USA"
+       },
+       "861cf4c0-aaa2-459e-b6dd-540f08b5d603":{
+          "race_id":"861cf4c0-aaa2-459e-b6dd-540f08b5d603",
+          "race_name":"Spectator's Bar \u0026 Bistro Pbd Dash",
+          "race_number":8,
+          "meeting_id":"85631ce5-5725-48b1-82b7-9aa7febc2065",
+          "meeting_name":"Stub Name 11",
+          "category_id":"9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+          "advertised_start":"2022-11-21T01:31:00Z",
+          "race_form":{
+             "distance":295,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"FINE"
+             },
+             "race_comment":"ROWDY'S MONSTER (1) held his own to the line last start and filled a minor placing, beaten only 0.7 lengths (17.54) behind Jerome Bale at this track. Recorded one of the quickest times on the card last start despite being beaten. Key chance in this line up. OPAWA CODY (8) crossed from out wide chasing down the leaders to score by 2.75 lengths (17.68) at this track in Class 1 over 295m. Will go close again if runs up to latest. GOLDSTAR YANKEE (2) found trouble in the run at this course and distance last time and fell. Must include in calculations. HOMEBUSH ALLISON (3) has good box speed but will need a clear run early. She drops in journey and warrants respect.",
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"\",\"state\":\"\",\"country\":\"\",\"number\":0,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"a1189bc2-f3ed-4b72-a8fd-cbc67ac1f13c",
+          "venue_name":"Addington",
+          "venue_state":"NZ",
+          "venue_country":"NZ",
+          "video":{
+             "channel":{
+                "channel_id":"bd93ca0c-63fc-4bf3-b5b1-efcd208546dc"
+             }
+          }
+       },
+       "96047799-2180-4d70-9588-5f5f6a3ff461":{
+          "race_id":"96047799-2180-4d70-9588-5f5f6a3ff461",
+          "race_name":"Sjc Concreting",
+          "race_number":3,
+          "meeting_id":"9d71ef19-6bbf-4955-8c33-37beac4dcffb",
+          "meeting_name":"Stub Name 12",
+          "category_id":"9daef0d7-bf3c-4f50-921d-8e818c60fe61",
+          "advertised_start":"2022-11-21T01:25:00Z",
+          "race_form":{
+             "distance":390,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"Overcast"
+             },
+             "race_comment":"SHATTER (6) recorded her 2nd career win last time at Shepparton, scoring by a neck (22.23). Will go close again if runs up to latest. ANGRY BETTY (8) generally flies the lids but last time was always well back and ran below best, finishing fourth (22.67) in a T3 Grade 7 at Shepparton. Prior to that was quickly into stride and scored (22.67) at Shepparton. Has ability and is one of the better chances. ESPECIAL HARVEY (10) missed the frame last time but had been racing well prior to that, winning a Maiden three back before a placing at Healesville the following run. Can improve sharply here. MR. FITTY (2) is a chance after five-and-a-half weeks.",
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"\",\"state\":\"\",\"country\":\"\",\"number\":0,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"6a2a6438-5747-4771-a17d-bc40523bfaef",
+          "venue_name":"Ballarat",
+          "venue_state":"VIC",
+          "venue_country":"AUS"
+       },
+       "a253bd8f-7a5d-44a1-85a3-cfc0d06692a8":{
+          "race_id":"a253bd8f-7a5d-44a1-85a3-cfc0d06692a8",
+          "race_name":"Race 2 - 1400",
+          "race_number":2,
+          "meeting_id":"2ce34cb4-755a-418b-895b-0151f26ad9fe",
+          "meeting_name":"Stub Name 13",
+          "category_id":"4a2788f8-e825-4d36-9894-efd4baf1cfae",
+          "advertised_start":"2022-11-21T02:00:00Z",
+          "race_form":{
+             "distance":1400,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Soft",
+                "short_name":"soft"
+             },
+             "weather":{
+                "name":"OCAST"
+             },
+             "race_comment":"MAHNE FLOTTANT (4) is a filly by Hall Walker out of Praesepe set to debut for the Shinji Kobayashi stable. Top jockey Taito Mori in the saddle. Looks ready to run a big race. GOLD BARON (5) is a colt by Vincennes out of Charisma Black set to debut for the Yoshikazu Kanuma stable. Siblings include honest performers such as Unsinkable and Black Beast. Bold showing expected. AUSTRO (1) is a colt by Danon Legend out of Key Ticket on debut for the Hirotsugu Ozawa stable. Barrier 1 always handy on debut. Should acquit himself well. ARUHI MORINO NAKA (3) is a two-year-old colt from the Hironori Unoki stable on debut today. No weight on his back after the 4kg claim. Pay to watch for any positive betting moves.",
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Urawa\",\"state\":\"JPN\",\"country\":\"JPN\",\"number\":2,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"26207fdc-6176-4437-b7bc-25fec74c7bc8",
+          "venue_name":"Urawa",
+          "venue_state":"JPN",
+          "venue_country":"JPN"
+       },
+       "bf639149-3f9e-421a-b698-de67bc0d14c4":{
+          "race_id":"bf639149-3f9e-421a-b698-de67bc0d14c4",
+          "race_name":"Race 6 - 1609M",
+          "race_number":6,
+          "meeting_id":"83359d56-a7cd-4eea-84b9-2260d3302ec9",
+          "meeting_name":"Stub Name 14",
+          "category_id":"161d9be2-e909-4326-8c2c-35ed71fb460b",
+          "advertised_start":"2022-11-21T01:44:00Z",
+          "race_form":{
+             "distance":1609,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Good",
+                "short_name":"good"
+             },
+             "weather":{
+                "name":"FINE"
+             },
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Northfield Park\",\"state\":\"OH\",\"country\":\"USA\",\"number\":6,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"562f0f79-ecf3-4c04-805c-4d074ab7965e",
+          "venue_name":"Northfield Park",
+          "venue_state":"OH",
+          "venue_country":"USA"
+       },
+       "c3cc66d1-af7b-4779-b85b-f825ed8d0655":{
+          "race_id":"c3cc66d1-af7b-4779-b85b-f825ed8d0655",
+          "race_name":"Race 3 - Trials",
+          "race_number":3,
+          "meeting_id":"04dd2a19-4143-4a1b-932d-a79f75344311",
+          "meeting_name":"Stub Name 15",
+          "category_id":"4a2788f8-e825-4d36-9894-efd4baf1cfae",
+          "advertised_start":"2022-11-21T02:07:00Z",
+          "race_form":{
+             "distance":366,
+             "distance_type":{
+                "name":"Metres",
+                "short_name":"m"
+             },
+             "track_condition":{
+                "name":"Dirt",
+                "short_name":"dirt"
+             },
+             "weather":{
+                "name":"OCAST"
+             },
+             "additional_data":"{\"revealed_race_info\":{\"track_name\":\"Los Alamitos\",\"state\":\"CA\",\"country\":\"USA\",\"number\":3,\"race_name\":\"\",\"time\":\"1970-01-01T00:00:00Z\"}}"
+          },
+          "venue_id":"961e2c9d-e30b-4771-a7ea-294a8f794e61",
+          "venue_name":"Los Alamitos",
+          "venue_state":"CA",
+          "venue_country":"USA"
+       }
+    }
+ }

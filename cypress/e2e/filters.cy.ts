@@ -1,3 +1,7 @@
+// Author: Yue Ma
+// Date: 21 Nov, 2022
+
+
 import { RACING_CATEGORIES } from "../config/constants";
 
 describe('Category Filters', () => {

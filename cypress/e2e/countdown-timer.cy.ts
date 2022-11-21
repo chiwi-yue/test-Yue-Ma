@@ -1,3 +1,6 @@
+// Author: Yue Ma
+// Date: 21 Nov, 2022
+
 const date = new Date();
 date.setHours(date.getHours() - 2); // Rewind app clock hours backwards two hours
 const regExpHour = new RegExp(/\-*\d{1,2}h/); // timer format: '8h|-12h'
