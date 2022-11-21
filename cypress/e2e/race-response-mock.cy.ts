@@ -23,7 +23,7 @@ describe('Simulate response from server', () => {
           ).as('slowConnectionSimulation');
       });
 
-    it.only('Mock response from server by seeding fixture data', () => {
+    it('Mock response from server by seeding fixture data', () => {
         // spy on GET requests to /v2/racing/next-races-category-group endpoint
         cy.intercept(
             {
@@ -73,7 +73,7 @@ describe('Simulate response from server', () => {
         cy.get('[data-testid=page-title]').should('be.visible')
     });
 
-    it.only('stub server 500 failure', () => {
+    it('stub server 500 failure', () => {
         cy.intercept(
             'GET',
             '/v2/racing/next-races-category-group?count=5&categories=*', 
@@ -84,9 +84,9 @@ describe('Simulate response from server', () => {
                 }
             })
             .as('getServerFaiure')
-
         cy.visit('/');
         cy.wait('@getServerFailure')
         cy.get('[data-testid=page-title]').should('be.visible')
+        
     });
 })
