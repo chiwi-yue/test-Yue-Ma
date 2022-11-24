@@ -61,16 +61,16 @@ describe('Simulate response from server', () => {
         cy.visit('/');
     });
 
-    it('stub network failure', () => {
+    it.only('stub network failure', () => {
         cy.intercept(
             'GET',
-            '/v2/racing/next-races-category-group?count=5&categories=*',
+            '/v2/racing/*',
             { forceNetworkError: true },
             )
             .as('getNetworkFaiure')
         cy.visit('/');
         cy.wait('@getNetworkFaiure')
-        cy.get('[data-testid=page-title]').should('be.visible')
+        cy.get('[data-testid="page-title"]').should('be.visible')
     });
 
     it('stub server 500 failure', () => {
@@ -86,7 +86,7 @@ describe('Simulate response from server', () => {
             .as('getServerFaiure')
         cy.visit('/');
         cy.wait('@getServerFailure')
-        cy.get('[data-testid=page-title]').should('be.visible')
+        cy.get('[data-testid="page-title"]').should('be.visible')
         
     });
 })
