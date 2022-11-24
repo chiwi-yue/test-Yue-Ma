@@ -41,11 +41,17 @@ describe('Page Content', () => {
         expect(name).to.match(/\w/);
         cy.log("Animal name: " + name);
       });
+      // cy.get("div .race-name p").as('raceName').should('be.visible').then(($raceNames) => {
+      //   $raceNames.each(function(index, element) {
+      //     const raceNameStr = element.innerText;
+      //     expect(raceNameStr).to.match(/\w/);
+      //   });
+      // });
     })
   });
 
   it('Should display the correct timer format', () => {
-    cy.get('.race-name').next().should('be.visible').then(($timer) => {
+    cy.get('div .item > p').should('be.visible').then(($timer) => {
       $timer.toArray().forEach(el => {
         const timer = el.innerText;
         // expect(timer).to.match(/(\-*\d{1,2}(m|s)\s*\d{1,2}(m|s))|(\-*\d{1,2}(m|s))/);
@@ -55,8 +61,13 @@ describe('Page Content', () => {
     })
   });
 
-  it('Should display the races by ascending order time', () => {
-      // to be added
+  it.only('Should display the races by ascending order time', () => {
+    cy.get('.item > p').then(($timer) => {
+      $timer.each(function(index, element) {
+        cy.log(`#${index + 1} Time: ${element.innerHTML}`)
+        
+      })
+    })
   });
 
 })
