@@ -61,7 +61,7 @@ describe('Simulate response from server', () => {
         cy.visit('/');
     });
 
-    it.only('stub network failure', () => {
+    it('stub network failure', () => {
         cy.intercept(
             'GET',
             '/v2/racing/*',
