@@ -41,12 +41,6 @@ describe('Page Content', () => {
         expect(name).to.match(/\w/);
         cy.log("Animal name: " + name);
       });
-      // cy.get("div .race-name p").as('raceName').should('be.visible').then(($raceNames) => {
-      //   $raceNames.each(function(index, element) {
-      //     const raceNameStr = element.innerText;
-      //     expect(raceNameStr).to.match(/\w/);
-      //   });
-      // });
     })
   });
 
